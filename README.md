@@ -1,13 +1,16 @@
 # TextureMapperPython
 Semi-automatic porting of textures between the Mass Effect games (original and remastered)
 
-**Requirements**
+## Requirements
+
 Python 3.x
 
-**Installation**
+## Installation
+
 Run `pip install numpy pillow pysqlite3`
 
-**Usage**
+## Usage
+
 ```python texture_porter.py [-h] --input INPUT --output OUTPUT --game GAME```
 
 For example: `python texture_porter.py  --input input.csv --output test_folder --game 1`
