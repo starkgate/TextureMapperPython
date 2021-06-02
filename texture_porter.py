@@ -61,7 +61,7 @@ def create_connection(db_file):
 
 conn = create_connection(database)
 cur = conn.cursor()
-"""
+
 os.remove(database)
 
 try:
@@ -85,7 +85,6 @@ with open("duplicates.csv") as csv_file:
     cur.executemany("INSERT INTO duplicates VALUES (?, ?, ?, ?, ?)", rows)
 
 conn.commit()
-"""
 
 def get_game_int(game):
     if game == "ME1":
